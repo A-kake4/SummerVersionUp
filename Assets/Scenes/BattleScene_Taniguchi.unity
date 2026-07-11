@@ -134,11 +134,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalPosition.x
@@ -187,7 +187,7 @@ PrefabInstance:
     - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 02a7d2b6b9e9250459c7c0d0fd5fae4b, type: 3}
+      objectReference: {fileID: 21300000, guid: 0c9753e8934afc24c9b94715767e71e5, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3604080967631490319, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
@@ -209,11 +209,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalPosition.x
@@ -262,7 +262,7 @@ PrefabInstance:
     - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 02a7d2b6b9e9250459c7c0d0fd5fae4b, type: 3}
+      objectReference: {fileID: 21300000, guid: dca46830f400ced4e953b2d66e3ee710, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3604080967631490319, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
@@ -284,11 +284,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalPosition.x
@@ -337,7 +337,7 @@ PrefabInstance:
     - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 02a7d2b6b9e9250459c7c0d0fd5fae4b, type: 3}
+      objectReference: {fileID: 21300000, guid: 37757a2c9fce8024ab60f1f35fce40d7, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3604080967631490319, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
@@ -364,11 +364,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalPosition.x
@@ -417,7 +417,7 @@ PrefabInstance:
     - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 02a7d2b6b9e9250459c7c0d0fd5fae4b, type: 3}
+      objectReference: {fileID: 21300000, guid: 37757a2c9fce8024ab60f1f35fce40d7, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3604080967631490319, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
@@ -439,11 +439,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalPosition.x
@@ -492,7 +492,7 @@ PrefabInstance:
     - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 02a7d2b6b9e9250459c7c0d0fd5fae4b, type: 3}
+      objectReference: {fileID: 21300000, guid: dca46830f400ced4e953b2d66e3ee710, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3604080967631490319, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
@@ -514,11 +514,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalPosition.x
@@ -567,7 +567,7 @@ PrefabInstance:
     - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 02a7d2b6b9e9250459c7c0d0fd5fae4b, type: 3}
+      objectReference: {fileID: 21300000, guid: 1f4ecaff8e101a845a7cccec6a24d5c5, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3604080967631490319, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
@@ -589,11 +589,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalPosition.x
@@ -642,7 +642,7 @@ PrefabInstance:
     - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 02a7d2b6b9e9250459c7c0d0fd5fae4b, type: 3}
+      objectReference: {fileID: 21300000, guid: 0c9753e8934afc24c9b94715767e71e5, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3604080967631490319, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
@@ -857,8 +857,8 @@ MonoBehaviour:
   objectSpacing: 1.5
   moveSpeed: 5
   focusPosition: {x: 3, y: 3.5, z: 0}
-  focusScale: {x: 0.4, y: 0.4, z: 1}
-  normalScale: {x: 0.15, y: 0.15, z: 1}
+  focusScale: {x: 1, y: 1, z: 1}
+  normalScale: {x: 0.5, y: 0.5, z: 1}
 --- !u!1 &1559945558
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,11 +1058,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1111,7 +1111,7 @@ PrefabInstance:
     - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 02a7d2b6b9e9250459c7c0d0fd5fae4b, type: 3}
+      objectReference: {fileID: 21300000, guid: 0c9753e8934afc24c9b94715767e71e5, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3604080967631490319, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
@@ -1155,8 +1155,8 @@ MonoBehaviour:
   objectSpacing: 1.5
   moveSpeed: 5
   focusPosition: {x: 3, y: -3.5, z: 0}
-  focusScale: {x: 0.4, y: 0.4, z: 1}
-  normalScale: {x: 0.15, y: 0.15, z: 1}
+  focusScale: {x: 1, y: 1, z: 1}
+  normalScale: {x: 0.5, y: 0.5, z: 1}
 --- !u!4 &1573901075
 Transform:
   m_ObjectHideFlags: 0
@@ -1187,11 +1187,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1240,7 +1240,7 @@ PrefabInstance:
     - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 02a7d2b6b9e9250459c7c0d0fd5fae4b, type: 3}
+      objectReference: {fileID: 21300000, guid: 0c9753e8934afc24c9b94715767e71e5, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3604080967631490319, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
@@ -1322,11 +1322,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1375,7 +1375,7 @@ PrefabInstance:
     - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 02a7d2b6b9e9250459c7c0d0fd5fae4b, type: 3}
+      objectReference: {fileID: 21300000, guid: 0c9753e8934afc24c9b94715767e71e5, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3604080967631490319, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
@@ -1483,10 +1483,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   P1: {fileID: 1501397525}
   P2: {fileID: 1573901074}
-  draw1: {fileID: 21300000, guid: 02a7d2b6b9e9250459c7c0d0fd5fae4b, type: 3}
-  draw2: {fileID: 21300000, guid: 02a7d2b6b9e9250459c7c0d0fd5fae4b, type: 3}
+  draw1: {fileID: 21300000, guid: 0c9753e8934afc24c9b94715767e71e5, type: 3}
+  draw2: {fileID: 21300000, guid: 0c9753e8934afc24c9b94715767e71e5, type: 3}
   hpTextP1: {fileID: 0}
   hpTextP2: {fileID: 0}
+  mpTextP1: {fileID: 0}
+  mpTextP2: {fileID: 0}
+  atkTextP1: {fileID: 0}
+  atkTextP2: {fileID: 0}
+  defTextP1: {fileID: 0}
+  defTextP2: {fileID: 0}
+  deckTextP1: {fileID: 0}
+  deckTextP2: {fileID: 0}
 --- !u!4 &2095945982
 Transform:
   m_ObjectHideFlags: 0

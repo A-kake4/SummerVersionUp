@@ -54,62 +54,80 @@ public class GameManager : MonoBehaviour
                 SetHPText(hpTextP2, 1880);
                 break;
             case 2:
-                SetMPText(mpTextP1, 10);
 
                 // MP2のバフを使ってMP1の攻撃
                 P2.HandleStateTransition();
-                SetMPText(mpTextP2, 5);
-                SetAttackText(atkTextP2, 240);
                 break;
             case 3:
                 P2.HandleStateTransition();
-                SetHPText(hpTextP1, 800);
+                SetMPText(mpTextP2, 8);
+                SetAttackText(atkTextP2, 240);
                 break;
             case 4:
-                SetMPText(mpTextP2, 8);
+                P2.HandleStateTransition();
+                break;
+            case 5:
+                P2.HandleStateTransition();
+                SetMPText(mpTextP2, 6);
+                SetHPText(hpTextP1, 800);
+                break;
+            case 6:
+                SetMPText(mpTextP1, 10);
 
                 // ドローしてMP2の防御バフカードを使う
                 P1.ChangeLastCard(draw1);
                 SetDeckText(deckTextP1, 34);
                 break;
-            case 5:
+            case 7:
+                P1.HandleStateTransition();
+                Debug.Log("P1の防御バフカードを使用");
+                break;
+            case 8:
                 P1.HandleStateTransition();
                 SetMPText(mpTextP1, 8);
                 SetDefenseText(defTextP1, 90);
-                Debug.Log("P1の防御バフカードを使用");
                 break;
-            case 6:
-                SetMPText(mpTextP1, 10);
+            case 9:
+                SetMPText(mpTextP2, 10);
 
                 // ドローしてMP2の攻撃バフカードを使う
                 P2.ChangeLastCard(draw2);
                 SetDeckText(deckTextP2, 34);
                 break;
-            case 7:
-                SetMPText(mpTextP2, 5);
-                SetAttackText(atkTextP2, 480);
+            case 10:
                 P2.HandleStateTransition();
                 break;
-            case 8:
-                SetMPText(mpTextP2, 8);
+            case 11:
+                P2.HandleStateTransition();
+                SetMPText(mpTextP2, 5);
+                SetAttackText(atkTextP2, 480);
+                break;
+            case 13:
+                SetMPText(mpTextP1 ,10);
 
                 // 先攻がドローして必殺技
                 P1.ChangeLastCard(draw1);
                 SetDeckText(deckTextP1, 33);
                 break;
-            case 9:
+            case 14:
+                P1.HandleStateTransition();
+                break;
+            case 15:
                 SetMPText(mpTextP1, 2);
                 P1.HandleStateTransition();
                 SetHPText(hpTextP2, 1600);
                 break;
-            case 10:
-                SetMPText(mpTextP1, 10);
+            case 16:
+                SetMPText(mpTextP2, 10);
 
                 // 後攻がドローして必殺技
                 P2.ChangeLastCard(draw2);
                 SetDeckText(deckTextP2, 33);
                 break;
-            case 11:
+            case 17:
+                P2.HandleStateTransition();
+                break;
+            case 18:
                 SetMPText(mpTextP2, 3);
                 P2.HandleStateTransition();
                 SetHPText(hpTextP1, 0);

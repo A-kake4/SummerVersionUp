@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.13f1 (8c4f11e4fb20) revision 9195281'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'ja' Physical Memory: 16085 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hnd hrt" at "2026-07-11T05:12:01.4679933Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tanik" at "2026-07-11T05:39:26.5816899Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-07-11T05:12:01Z
+Date: 2026-07-11T05:39:26Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.13f1\Editor\Unity.exe
@@ -15,13 +15,13 @@ C:\Program Files\Unity\Hub\Editor\6000.3.13f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/GitProject/SummerVersionUp
+C:/Users/tanik/Desktop/source/repos/SummerVersionUp
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59967
+53250
 -licensingIpc
-LicenseClient-hnd hrt
+LicenseClient-tanik
 -job-worker-count
 7
 -background-job-worker-count
@@ -30,8 +30,8 @@ LicenseClient-hnd hrt
 1
 -name
 AssetImport
-Successfully changed project path to: C:/GitProject/SummerVersionUp
-C:/GitProject/SummerVersionUp
+Successfully changed project path to: C:/Users/tanik/Desktop/source/repos/SummerVersionUp
+C:/Users/tanik/Desktop/source/repos/SummerVersionUp
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,16 +67,16 @@ C:/GitProject/SummerVersionUp
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [30460]  Target information:
+Player connection [6880]  Target information:
 
-Player connection [30460]  * "[IP] 10.64.62.130 [Port] 0 [Flags] 2 [Guid] 2848854112 [EditorId] 2848854112 [Version] 1048832 [Id] WindowsEditor(7,win11ohs30109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [6880]  * "[IP] 10.64.61.11 [Port] 0 [Flags] 2 [Guid] 580315414 [EditorId] 580315414 [Version] 1048832 [Id] WindowsEditor(7,win11ohs30399) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [30460]  * "[IP] 192.168.153.1 [Port] 0 [Flags] 2 [Guid] 2848854112 [EditorId] 2848854112 [Version] 1048832 [Id] WindowsEditor(7,win11ohs30109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [6880]  * "[IP] 192.168.72.1 [Port] 0 [Flags] 2 [Guid] 580315414 [EditorId] 580315414 [Version] 1048832 [Id] WindowsEditor(7,win11ohs30399) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [30460]  * "[IP] 192.168.40.1 [Port] 0 [Flags] 2 [Guid] 2848854112 [EditorId] 2848854112 [Version] 1048832 [Id] WindowsEditor(7,win11ohs30109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [6880]  * "[IP] 192.168.203.1 [Port] 0 [Flags] 2 [Guid] 580315414 [EditorId] 580315414 [Version] 1048832 [Id] WindowsEditor(7,win11ohs30399) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [30460] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [30460] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6880] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6880] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -88,11 +88,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.79 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.82 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.13f1 (8c4f11e4fb20)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/GitProject/SummerVersionUp/Assets
+[Subsystems] Discovering subsystems at path C:/Users/tanik/Desktop/source/repos/SummerVersionUp/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -104,12 +104,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001709 seconds.
-- Loaded All Assemblies, in  0.486 seconds
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-tanik"
+[Licensing::IpcConnector] LicenseClient-tanik channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tanik-6000.3.13" at "2026-07-11T05:39:29.6097043Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              63012cb7ac414a2c9ba35e6b3423827e
+  Correlation Id:          547c90ab41790ad456b5f29aebc1df84
+  External correlation Id: 6785555773556544080
+  Machine Id:              FvltaRFRsZmHO1Az0un4iIxDw8A=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-tanik-6000.3.13" (connect: 0.00s, validation: 0.00s, handshake: 2.69s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tanik-6000.3.13-notifications" at "2026-07-11T05:39:32.3001299Z"
+[Licensing::Module] Licensing Background thread has ended after 5.72s
+[Licensing::Module] Licensing is initialized (took 4.77s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 15669552443742-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 4.776955 seconds.
+- Loaded All Assemblies, in  5.388 seconds
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -117,35 +142,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.430 seconds
-Domain Reload Profiling: 912ms
-	BeginReloadAssembly (156ms)
+- Finished resetting the current domain, in  0.510 seconds
+Domain Reload Profiling: 5894ms
+	BeginReloadAssembly (194ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (208ms)
-		LoadAssemblies (151ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (4849ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (191ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (204ms)
-			TypeCache.Refresh (201ms)
-				TypeCache.ScanAssembly (186ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (248ms)
+				TypeCache.ScanAssembly (228ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (430ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (511ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (388ms)
+		SetupLoadedEditorAssemblies (459ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (56ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (154ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
+			InitializePlatformSupportModulesInManaged (72ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -154,168 +179,130 @@ Domain Reload Profiling: 912ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-hnd hrt"
-[Licensing::IpcConnector] LicenseClient-hnd hrt channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hnd hrt-6000.3.13" at "2026-07-11T05:12:03.8469164Z"
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.1+9fbee8e
-  Session Id:              80fb4c02148e4ccaa2a98278622a667f
-  Correlation Id:          dc40447fb0588e7fef71717a77014373
-  External correlation Id: 2919143565613926838
-  Machine Id:              l7f71U7Ps4k4WPTCP7IeoFlQhAA=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-hnd hrt-6000.3.13" (connect: 0.00s, validation: 0.00s, handshake: 1.99s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hnd hrt-6000.3.13-notifications" at "2026-07-11T05:12:05.8391568Z"
-[Licensing::Module] Licensing Background thread has ended after 4.37s
-[Licensing::Module] Licensing is initialized (took 2.67s).
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-HTJV-Y8J5-TXEZ-6WFN-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 15668814703345-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  3.187 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.756 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 1 plugins.
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.403 seconds
-Domain Reload Profiling: 3587ms
-	BeginReloadAssembly (2859ms)
+- Finished resetting the current domain, in  0.606 seconds
+Domain Reload Profiling: 1356ms
+	BeginReloadAssembly (260ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (226ms)
-		LoadAssemblies (250ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (389ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (79ms)
-			TypeCache.Refresh (60ms)
-				TypeCache.ScanAssembly (50ms)
-			BuildScriptInfoCaches (16ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (403ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (79ms)
+			BuildScriptInfoCaches (25ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (607ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (307ms)
+		SetupLoadedEditorAssemblies (470ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (138ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (186ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1761 unused Assets / (470.9 KB). Loaded Objects now: 2358.
-Memory consumption went from 79.4 MB to 78.9 MB.
-Total: 4.845400 ms (FindLiveObjects: 0.189900 ms CreateObjectMapping: 0.118900 ms MarkObjects: 4.030500 ms  DeleteObjects: 0.505000 ms)
+Unloading 1761 unused Assets / (389.1 KB). Loaded Objects now: 2356.
+Memory consumption went from 79.0 MB to 78.6 MB.
+Total: 6.260000 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.106800 ms MarkObjects: 5.288300 ms  DeleteObjects: 0.611000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16498.474369 seconds.
-  path: Assets/CardTemplate-ops.png
-  artifactKey: Guid(2388bee18e794d44f83f9bc48fbf9fd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/CardTemplate-ops.png using Guid(2388bee18e794d44f83f9bc48fbf9fd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d26baf247f6241ae0d9b67b7285e65b') in 0.1355474 seconds
+  Time since last request: 2074228.643095 seconds.
+  path: Assets/Image_summer4.jpg
+  artifactKey: Guid(4e9cc15871ab45f45960c4cbea292dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_summer4.jpg using Guid(4e9cc15871ab45f45960c4cbea292dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbe2669f70e5de8ccddb365d00c2fe8c') in 0.1118547 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.821324 seconds.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f60749fb8911474c4a321719a1da7ae') in 0.1641311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0146bb3e36613835aeba37d4023c015') in 0.0269951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Image_summer1.jpg
+  artifactKey: Guid(07236d60cda87eb4b84baa03c388e362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_summer1.jpg using Guid(07236d60cda87eb4b84baa03c388e362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e27c7e0fb6f7525a397eba3b75c269b3') in 0.0244748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b7ba9ff7e14b752359cf5b188fa92c94') in 0.0282224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Image_summer3.jpg
+  artifactKey: Guid(7c45837c2d0fd4f48a97262bcaccc43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_summer3.jpg using Guid(7c45837c2d0fd4f48a97262bcaccc43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '012871aed46789d382164be57fd514b7') in 0.0272351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Objects/Card_summer1 3.prefab
+  artifactKey: Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 3.prefab using Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4af9b54eefb858b4c8844886f744dad4') in 0.0270308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.529369 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b22c96b86a84f55355917568913bcbf') in 0.0548754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
   path: Assets/Objects/Status.prefab
   artifactKey: Guid(da67bf2d09eb6b140af768027e81e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Status.prefab using Guid(da67bf2d09eb6b140af768027e81e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '861375f4b17dc4a4f87003bed11a2ac0') in 0.0853195 seconds
+Start importing Assets/Objects/Status.prefab using Guid(da67bf2d09eb6b140af768027e81e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f36172b4d30cae00b34d7e8a13162e82') in 0.0178022 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
 
-========================================================================
-Received Import Request.
-  Time since last request: 44.535628 seconds.
-  path: Assets/CardTemplate-ops 1.png
-  artifactKey: Guid(02a7d2b6b9e9250459c7c0d0fd5fae4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CardTemplate-ops 1.png using Guid(02a7d2b6b9e9250459c7c0d0fd5fae4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a966c9e9ce360ec3e15cf8c92ea9498') in 0.0477074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.054512 seconds.
-  path: Assets/Image (2).jpg
-  artifactKey: Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image (2).jpg using Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab2bb082fb5470e9172050bb43cd2bd3') in 0.0331347 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Image (3).jpg
-  artifactKey: Guid(7c45837c2d0fd4f48a97262bcaccc43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image (3).jpg using Guid(7c45837c2d0fd4f48a97262bcaccc43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0834558b6bee769d4460a0e66522c1a9') in 0.0202642 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.974144 seconds.
-  path: Assets/Image (1).jpg
-  artifactKey: Guid(07236d60cda87eb4b84baa03c388e362) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Image (1).jpg using Guid(07236d60cda87eb4b84baa03c388e362) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd821a96934787f495ed784b71e4794d') in 0.0152101 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Image (3).jpg
-  artifactKey: Guid(7c45837c2d0fd4f48a97262bcaccc43d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Image (3).jpg using Guid(7c45837c2d0fd4f48a97262bcaccc43d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a89cd2424771e0d72e1f38a958a5e509') in 0.0160452 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 76.631134 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab
-  artifactKey: Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab using Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb7c1c5955f474d87b4629462923ed25') in 0.0393179 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 184.233579 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Capsule.png
-  artifactKey: Guid(207ee8102dd4143d288186ef0be518ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Capsule.png using Guid(207ee8102dd4143d288186ef0be518ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed7257d645c820f5a170f00d6f3b6774') in 0.0166402 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonFlatTop.png
-  artifactKey: Guid(b670ab75dde984907b8570040daa08c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonFlatTop.png using Guid(b670ab75dde984907b8570040daa08c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0af478d8bf6d9a5df5bf65f7c0df6a9') in 0.012814 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/IsometricDiamond.png
-  artifactKey: Guid(19fb86013d8c24d6cb8410c0aadf30fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/IsometricDiamond.png using Guid(19fb86013d8c24d6cb8410c0aadf30fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35c5399e9beee89a9498aff8b85fd15f') in 0.0138591 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
