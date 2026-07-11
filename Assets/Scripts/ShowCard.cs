@@ -31,7 +31,7 @@ public class ShowCard : MonoBehaviour
         }
 
         // 毎フレーム、現在の状態に基づいて位置・拡大率・透明度をスムーズに補間
-        //UpdateObjectsTransform();
+        UpdateObjectsTransform();
     }
 
     private void HandleStateTransition()
@@ -47,7 +47,7 @@ public class ShowCard : MonoBehaviour
             // 2回目のエンター：透明度を下げて、ヒエラルキーの一番最後（右端）に送る
             if (focusedChild != null)
             {
-                SetAlpha(focusedChild, 0.2f); // 透明度を下げる（例: 20%に）
+                SetAlpha(focusedChild, 0.0f); // 透明度を下げる（例: 20%に）
                 focusedChild.SetAsLastSibling(); // 一番右（最後尾）へ移動
             }
 
@@ -76,15 +76,15 @@ public class ShowCard : MonoBehaviour
             // 列内での目標位置を計算（インデックスに応じて右にずらす）
             // currentState が WaitingForShift の時は、インデックス1が先頭（左端）にくるように調整
             int descendingOrder = (currentState == CarouselState.WaitingForShift) ? (i - 1) : i;
-            Vector3 targetPos = new Vector3(descendingOrder * objectSpacing, 0f, 0f);
+            Vector3 targetPos = new Vector3(descendingOrder * objectSpacing, 0, 0f);
             Vector3 targetScale = Vector3.one; // 通常サイズは (1, 1, 1)
 
             // スムーズに移動・縮小
             child.localPosition = Vector3.Lerp(child.localPosition, targetPos, Time.deltaTime * moveSpeed);
-            child.localScale = Vector3.Lerp(child.localScale, targetScale, Time.deltaTime * moveSpeed);
+            //child.localScale = Vector3.Lerp(child.localScale, targetScale, Time.deltaTime * moveSpeed);
 
             // 列に戻ったオブジェクトの透明度を徐々に100%に戻す
-            SetAlpha(child, Mathf.MoveTowards(GetAlpha(child), 1.0f, Time.deltaTime * moveSpeed));
+            //SetAlpha(child, Mathf.MoveTowards(GetAlpha(child), 1.0f, Time.deltaTime * moveSpeed));
         }
 
         // --- 2. 注目（拡大）している先頭オブジェクトの処理 ---
