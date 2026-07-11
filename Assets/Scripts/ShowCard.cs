@@ -9,6 +9,7 @@ public class ShowCard : MonoBehaviour
     [Header("先頭オブジェクトのトランスフォーム")]
     [SerializeField] private Vector3 focusPosition = new Vector3(0f, 1f, 0f);     // X0, Y1
     [SerializeField] private Vector3 focusScale = new Vector3(2.4f, 3.2f, 1f);    // 拡大サイズ
+    private Vector3 normalScale = new Vector3(1.2f, 1.6f, 1f); // 通常サイズ
 
     private enum CarouselState
     {
@@ -25,16 +26,16 @@ public class ShowCard : MonoBehaviour
         if (transform.childCount == 0) return;
 
         // エンターキー（Returnキー）が押されたときの状態遷移
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            HandleStateTransition();
-        }
+        //if (Input.GetKeyDown(KeyCode.Return))
+        //{
+        //    HandleStateTransition();
+        //}
 
         // 毎フレーム、現在の状態に基づいて位置・拡大率・透明度をスムーズに補間
         UpdateObjectsTransform();
     }
 
-    private void HandleStateTransition()
+    public void HandleStateTransition()
     {
         if (currentState == CarouselState.WaitingForFocus)
         {
@@ -116,5 +117,25 @@ public class ShowCard : MonoBehaviour
             return spriteRenderer.color.a;
         }
         return 1.0f;
+    }
+    // 2D SpriteRendererのスプライトを変更する関数
+
+    public void ChangeLastCard(Sprite sprite)
+    {
+        if (transform.childCount == 0) return;
+
+        Transform lastChild = transform.GetChild(transform.childCount - 1);
+
+        if (lastChild.TryGetComponent<SpriteRenderer>(out SpriteRenderer sr))
+        {
+            // テクスチャ（Sprite）を変更
+            if(sprite != null) sr.sprite = sprite;
+
+            // 不透明に戻す
+            Color color = sr.color;
+            color.a = 1.0f;
+            sr.color = color;
+            lastChild.localScale = normalScale; // 通常サイズに戻す
+        }
     }
 }
