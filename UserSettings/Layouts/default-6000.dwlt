@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 954
+    x: 961
     y: 51
     width: 958
     height: 980
@@ -604,7 +604,7 @@ MonoBehaviour:
       m_Data: 20280
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 26910
+    - m_Data: 27138
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -637,7 +637,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 26910
+    - m_Data: 27138
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1414,9 +1414,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -1.330179, y: 0.34790215, z: -0.5015411}
+    m_Target: {x: -0.76455253, y: -0.8427011, z: -0.52407306}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: -1.330179, y: 0.34790215, z: -0.5015411}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1464,15 +1464,15 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.855446
+    m_Target: 12.10864
     speed: 2
-    m_Value: 10
+    m_Value: 9.855446
   m_Ortho:
     m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
