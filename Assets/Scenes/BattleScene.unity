@@ -439,6 +439,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
+--- !u!102 &595957603 stripped
+TextMesh:
+  m_CorrespondingSourceObject: {fileID: 2635001891670756803, guid: da67bf2d09eb6b140af768027e81e5ef, type: 3}
+  m_PrefabInstance: {fileID: 2463534993951915927}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &747270066 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1330319209057473391, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
@@ -1014,6 +1019,11 @@ Transform:
   - {fileID: 25270604}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &1764164944 stripped
+TextMesh:
+  m_CorrespondingSourceObject: {fileID: 2635001891670756803, guid: da67bf2d09eb6b140af768027e81e5ef, type: 3}
+  m_PrefabInstance: {fileID: 1899263476}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1896988259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1290,6 +1300,8 @@ MonoBehaviour:
   P2: {fileID: 1573901074}
   draw1: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   draw2: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  hpTextP1: {fileID: 595957603}
+  hpTextP2: {fileID: 1764164944}
 --- !u!4 &2095945982
 Transform:
   m_ObjectHideFlags: 0

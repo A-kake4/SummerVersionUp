@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] Sprite draw1;
     [SerializeField] Sprite draw2;
 
+    [SerializeField] TextMesh hpTextP1;
+    [SerializeField] TextMesh hpTextP2;
+
     int commandCount = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -33,13 +36,15 @@ public class GameManager : MonoBehaviour
                 P1.HandleStateTransition();
                 break;
             case 1: 
-                P1.HandleStateTransition(); 
+                P1.HandleStateTransition();
+                SetHPText(hpTextP2, 950);
                 break;
             case 2:
                 P2.HandleStateTransition();
                 break;
             case 3:
                 P2.HandleStateTransition();
+                SetHPText(hpTextP1, 900);
                 break;
             case 4:
                 P1.ChangeLastCard(draw1);
@@ -60,5 +65,10 @@ public class GameManager : MonoBehaviour
                 P2.HandleStateTransition();
                 break;
         }
+    }
+
+    void SetHPText(TextMesh hpText, int newHP)
+    {
+        hpText.text = "HP: " + newHP.ToString();
     }
 }
