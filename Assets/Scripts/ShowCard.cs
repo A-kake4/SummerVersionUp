@@ -9,7 +9,7 @@ public class ShowCard : MonoBehaviour
     [Header("先頭オブジェクトのトランスフォーム")]
     [SerializeField] private Vector3 focusPosition = new Vector3(0f, 1f, 0f);     // X0, Y1
     [SerializeField] private Vector3 focusScale = new Vector3(2.4f, 3.2f, 1f);    // 拡大サイズ
-    private Vector3 normalScale = new Vector3(1.2f, 1.6f, 1f); // 通常サイズ
+    [SerializeField] private Vector3 normalScale = new Vector3(0.15f, 0.15f, 1f); // 通常サイズ
 
     private enum CarouselState
     {
