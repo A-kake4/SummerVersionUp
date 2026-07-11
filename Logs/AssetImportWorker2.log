@@ -1,0 +1,1364 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.13f1 (8c4f11e4fb20) revision 9195281'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hnd hrt" at "2026-07-11T05:12:01.4777186Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ja' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-07-11T05:12:01Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/GitProject/SummerVersionUp
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59967
+-licensingIpc
+LicenseClient-hnd hrt
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/GitProject/SummerVersionUp
+C:/GitProject/SummerVersionUp
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [34464]  Target information:
+
+Player connection [34464]  * "[IP] 10.64.62.130 [Port] 0 [Flags] 2 [Guid] 1092020731 [EditorId] 1092020731 [Version] 1048832 [Id] WindowsEditor(7,win11ohs30109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34464]  * "[IP] 192.168.153.1 [Port] 0 [Flags] 2 [Guid] 1092020731 [EditorId] 1092020731 [Version] 1048832 [Id] WindowsEditor(7,win11ohs30109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34464]  * "[IP] 192.168.40.1 [Port] 0 [Flags] 2 [Guid] 1092020731 [EditorId] 1092020731 [Version] 1048832 [Id] WindowsEditor(7,win11ohs30109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34464] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [34464] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.13f1 (8c4f11e4fb20)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitProject/SummerVersionUp/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3965 MB
+    Driver:   32.0.15.5599
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001809 seconds.
+- Loaded All Assemblies, in  0.478 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.424 seconds
+Domain Reload Profiling: 899ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (145ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (197ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (424ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (142ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-hnd hrt"
+[Licensing::IpcConnector] LicenseClient-hnd hrt channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hnd hrt-6000.3.13" at "2026-07-11T05:12:03.8163687Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              261dae91477642d18d35051df383b5eb
+  Correlation Id:          dc40447fb0588e7fef71717a77014373
+  External correlation Id: 4861561441504338213
+  Machine Id:              l7f71U7Ps4k4WPTCP7IeoFlQhAA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-hnd hrt-6000.3.13" (connect: 0.00s, validation: 0.00s, handshake: 1.94s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hnd hrt-6000.3.13-notifications" at "2026-07-11T05:12:05.7550097Z"
+[Licensing::Module] Licensing Background thread has ended after 4.28s
+[Licensing::Module] Licensing is initialized (took 2.49s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-HTJV-Y8J5-TXEZ-6WFN-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 15668814703345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  3.025 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.403 seconds
+Domain Reload Profiling: 3425ms
+	BeginReloadAssembly (2681ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (59ms)
+				TypeCache.ScanAssembly (47ms)
+			BuildScriptInfoCaches (16ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (404ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (313ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (144ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1761 unused Assets / (484.0 KB). Loaded Objects now: 2358.
+Memory consumption went from 79.4 MB to 79.0 MB.
+Total: 7.244400 ms (FindLiveObjects: 0.248800 ms CreateObjectMapping: 0.181100 ms MarkObjects: 6.147600 ms  DeleteObjects: 0.665500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16498.407984 seconds.
+  path: Assets/Scenes/BattleScene.unity
+  artifactKey: Guid(72530a2dee7facf479a4737a127001b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/BattleScene.unity using Guid(72530a2dee7facf479a4737a127001b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ee4b4128ce6d0395e53bda79b8dc3f4') in 0.072339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CardTemplate-ops 1.png
+  artifactKey: Guid(02a7d2b6b9e9250459c7c0d0fd5fae4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CardTemplate-ops 1.png using Guid(02a7d2b6b9e9250459c7c0d0fd5fae4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76f0049326d1881d0e32679415058a1e') in 0.0865299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.863079 seconds.
+  path: Assets/Objects/CardPool.prefab
+  artifactKey: Guid(ed595da3bf92a30478232cf9feeec076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CardPool.prefab using Guid(ed595da3bf92a30478232cf9feeec076) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b73a95edfbfe7fefcb8e97d988cf66d') in 0.0837315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.537065 seconds.
+  path: Assets/CardTemplate-ops.png
+  artifactKey: Guid(2388bee18e794d44f83f9bc48fbf9fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CardTemplate-ops.png using Guid(2388bee18e794d44f83f9bc48fbf9fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a9bd3182dc05caf1edf5fb91af8aa8f') in 0.0403777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.061878 seconds.
+  path: Assets/Image (1).jpg
+  artifactKey: Guid(07236d60cda87eb4b84baa03c388e362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image (1).jpg using Guid(07236d60cda87eb4b84baa03c388e362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e55901e73931ebcb4ef63cdb714c34d0') in 0.0183812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Image (4).jpg
+  artifactKey: Guid(4e9cc15871ab45f45960c4cbea292dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image (4).jpg using Guid(4e9cc15871ab45f45960c4cbea292dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a23f254d5bd6702d0d73a12d3241130') in 0.082837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.926907 seconds.
+  path: Assets/Image (2).jpg
+  artifactKey: Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Image (2).jpg using Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1736cfd1a86cc379722da82c970ff83c') in 0.0148938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Image (4).jpg
+  artifactKey: Guid(4e9cc15871ab45f45960c4cbea292dcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Image (4).jpg using Guid(4e9cc15871ab45f45960c4cbea292dcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1883dc7d8f645cae4d13c38a2603b7c3') in 0.0165528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.890984 seconds.
+  path: Assets/Image_summer1.jpg
+  artifactKey: Guid(07236d60cda87eb4b84baa03c388e362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_summer1.jpg using Guid(07236d60cda87eb4b84baa03c388e362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd91a3845732e4396c216d15cae7499ad') in 0.0143654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.962073 seconds.
+  path: Assets/Image_summer1.jpg
+  artifactKey: Guid(07236d60cda87eb4b84baa03c388e362) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Image_summer1.jpg using Guid(07236d60cda87eb4b84baa03c388e362) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c151640550d0179253d73d3e1cc8eefc') in 0.0142948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.156598 seconds.
+  path: Assets/Image_summer2.jpg
+  artifactKey: Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_summer2.jpg using Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a674b04679b4888cef8c16ebdd583f88') in 0.0157998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.962564 seconds.
+  path: Assets/Image_summer2.jpg
+  artifactKey: Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Image_summer2.jpg using Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5fc721bcecd86da9d5b7cb014998305') in 0.0146814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.907443 seconds.
+  path: Assets/Image_summer3.jpg
+  artifactKey: Guid(7c45837c2d0fd4f48a97262bcaccc43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_summer3.jpg using Guid(7c45837c2d0fd4f48a97262bcaccc43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '509864ac72d022ec8ffaccca19c38491') in 0.0146895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.962285 seconds.
+  path: Assets/Image_summer3.jpg
+  artifactKey: Guid(7c45837c2d0fd4f48a97262bcaccc43d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Image_summer3.jpg using Guid(7c45837c2d0fd4f48a97262bcaccc43d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e121ba29b03b5e45e82c2037f07251a') in 0.014083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.212144 seconds.
+  path: Assets/Image_summer4.jpg
+  artifactKey: Guid(4e9cc15871ab45f45960c4cbea292dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_summer4.jpg using Guid(4e9cc15871ab45f45960c4cbea292dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1201e81525632f8379ae1271188a23dd') in 0.0151036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.963885 seconds.
+  path: Assets/Image_summer4.jpg
+  artifactKey: Guid(4e9cc15871ab45f45960c4cbea292dcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Image_summer4.jpg using Guid(4e9cc15871ab45f45960c4cbea292dcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03cd8a2a533ad755354772c6b758a540') in 0.0151259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.317104 seconds.
+  path: Assets/Objects
+  artifactKey: Guid(b75bc5a9179aff244bd09fca48ad8b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects using Guid(b75bc5a9179aff244bd09fca48ad8b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e16dc02a725e1943168155e59b3d8e02') in 0.0005924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.164995 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab
+  artifactKey: Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab using Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6051f63e7fa2aaa835ab778ea9f3e88a') in 0.0510903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.799208 seconds.
+  path: Assets/Objects/CardPool 1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CardPool 1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b7c23aa5b89046080d41bb26f73e1b7') in 0.0078652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.979168 seconds.
+  path: Assets/Objects/CardPool 1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/CardPool 1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dcf167ed9cc3c7aab73bed1c7025aa54') in 0.0250022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.000934 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75fae18ecaa145a0699f68113ad137bb') in 0.0101107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.970998 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6c5e39a59036f2c6674ef1d506d3d6e') in 0.0138376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.814834 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f688c78abdfc5b1e4553816250fed97') in 0.0179114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.964321 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2ea7997f9aca3569f9531e75b1ec58b') in 0.0125286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.307391 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
+  artifactKey: Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png using Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eb4a561d106061c9bcf8a4e459925ea') in 0.0186587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.272244 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/9Sliced.png
+  artifactKey: Guid(8884154dfe85442a3a3578be807dbcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/9Sliced.png using Guid(8884154dfe85442a3a3578be807dbcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57fe119039d0c26bf40339354b1d7070') in 0.0176231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png
+  artifactKey: Guid(a86470a33a6bf42c4b3595704624658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png using Guid(a86470a33a6bf42c4b3595704624658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53b14eb96654a43a7859499ea2fbb383') in 0.0124242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonPointTop.png
+  artifactKey: Guid(5aa8b770bc43046bc8d993d0d5b7f4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonPointTop.png using Guid(5aa8b770bc43046bc8d993d0d5b7f4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcb33a9275bbea2c32846aaee8a63748') in 0.0139155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Triangle.png
+  artifactKey: Guid(75f5f34dc1b5347e0b8351032682f224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Triangle.png using Guid(75f5f34dc1b5347e0b8351032682f224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4a02238b19ffecb58903b0ff89bb1e3') in 0.0591531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.153864 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e083f8c1391df9ef3ec2953e7d029ec') in 0.012273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.712387 seconds.
+  path: Packages/com.unity.2d.sprite/package.json
+  artifactKey: Guid(7dc5f1e5d04ac8549ac21802071e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/package.json using Guid(7dc5f1e5d04ac8549ac21802071e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a20471305962974bab181145f5e7a19') in 0.001612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.747781 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e9c3e1fb19d2f312fb2f3d9d06c3462') in 0.0139255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.429497 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '040b37d868668a2d9d68bc2234d04742') in 0.0133163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.543383 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75f205c116fe8acaf8289f715fcdf343') in 0.0145285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.151473 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c645b7cd12fc9d461140aab1a847c34') in 0.014065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.603458 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5018d913fda2d2481901174458785842') in 0.0137903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.417661 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b6991d6db5996d4cdd99d77de1b74c1') in 0.0134286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.328993 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53cbd93df87a99838a0deeb01e363529') in 0.0141006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.285884 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af239641ac6b14c4e479be8b0fd9b557') in 0.0127218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.588393 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '701d1ef9fbd501d113b409eda1905a00') in 0.0128238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.441324 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8f0100399982fa3fed8e5051c1cd557') in 0.0127087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.437096 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab3ef13787301e7ffe0a5c34692353e3') in 0.0135736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.060839 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ada111b81f68e2eeb4f047ca61b9367') in 0.0123993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.999967 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f07c1f1a049d89d282864fce12933dd') in 0.0125625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.828908 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04a05bdb48dd23697e4bea153d4a6d63') in 0.0129888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.413040 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9162e60c1037d1258859e79e98cca996') in 0.013033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.552120 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a509b627082453dda657fdd1570a903b') in 0.0133981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.405486 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e2b175624c797ab592db02a8f574571') in 0.0147139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.094034 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '750bd465371804602ae60f3df62176bc') in 0.0125863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.601829 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7b946dcf19c35a47da828666278b7e6') in 0.0128103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.184591 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b89e8f906bb8b5996cd6490118f62562') in 0.0123296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.155683 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d0733a66eeddb7c73dabe7df8b1f105') in 0.0124681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.966377 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9baff680a4186b4d587e94c46f2ba33f') in 0.0128116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.133119 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98a07142032c945ec998de23163a98b7') in 0.0124082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.315326 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e19baf7b44ee47bf7120628a6b98d23e') in 0.0136823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.541155 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e0145e6d390a5d84cb63943620f7e59') in 0.01336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.990009 seconds.
+  path: Assets/Image_summer1.jpg
+  artifactKey: Guid(07236d60cda87eb4b84baa03c388e362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_summer1.jpg using Guid(07236d60cda87eb4b84baa03c388e362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd39b69e098281fedf0f64b26c5fdf536') in 0.0236468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.962358 seconds.
+  path: Assets/Image_summer1.jpg
+  artifactKey: Guid(07236d60cda87eb4b84baa03c388e362) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Image_summer1.jpg using Guid(07236d60cda87eb4b84baa03c388e362) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7cebba403089c9371fb9ded969aeb897') in 0.0136456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.258240 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6164cb3a4eaf5da1365f132cfd10217b') in 0.01559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.326782 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6958185094eb418cbe0676ce9f2f1b5d') in 0.0143949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.579338 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b4b152784a779845049850568a79ebf') in 0.0142672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.306487 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '01c1e1118a77ae4a4ae4a6e0729d93f7') in 0.0166465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.619997 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a12ebc962d1b177e44e26dc63cb023f') in 0.0156945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.609790 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd95455a124235651596145e8fb65e43') in 0.0139002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.283723 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c5ac4439a3665e369171abc1ccb99f1') in 0.0153023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.826256 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0894593e95ae6828b3619e47f0c8b8f') in 0.0145534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.345528 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19360a5694d0abbd6f6233dcf6f36976') in 0.0196467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.226551 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcdf9783c7d0eb9213ff2d16c61b0426') in 0.0141409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.973319 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ce917003c1c23884a8e07af1a9950f3') in 0.014466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.651015 seconds.
+  path: Assets/Image_summer2.jpg
+  artifactKey: Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_summer2.jpg using Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34f174e8687c254f045bd1548e40c7af') in 0.0131022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.973196 seconds.
+  path: Assets/Image_summer2.jpg
+  artifactKey: Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Image_summer2.jpg using Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd41a4e80582f4f2db202585861ee6afd') in 0.0140227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.385722 seconds.
+  path: Assets/Image_summer2.jpg
+  artifactKey: Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_summer2.jpg using Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58d1a7e88a658aba93f19ee52f08dac2') in 0.0187029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.966696 seconds.
+  path: Assets/Image_summer2.jpg
+  artifactKey: Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Image_summer2.jpg using Guid(dbd3b1b08031bea4da4a430225c03feb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c04041b8cadb8019c3b91494fef46e3') in 0.0139969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.274494 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dde85b7353edf4492fdf0bdcf2a2edb1') in 0.0147525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.514259 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1eba9cd065dc0109440a40eecdee208d') in 0.0153095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.085661 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa94e7aa01e8840854a0489a2c9522df') in 0.0149106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.381776 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6832052e37db67fea86783a145a693f1') in 0.015739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.271027 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f72dded70f8a6ccdc7e02d08909b9b4') in 0.013895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.020888 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6c1f8ebf527480082e900ccaf78afc4') in 0.0157331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.417104 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29ff4d82f0b43e98df376f874ec4e313') in 0.0198312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.580233 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '064cfea4ef10549a9d4b13d95699f38a') in 0.0202602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.957118 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae0d2d272c97e212a4c8d2453f93cfc1') in 0.0135618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.451460 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9be0e2655caa321ae696ceda298657df') in 0.0230846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.954615 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd6e5affa2c442e6ee744fcd593e7d6c') in 0.0139325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.781155 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd28f8a77f1d02c3fa49e712f33c7bc99') in 0.0154913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.950036 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40dc0368d5f8361655e04ac92ecc4f40') in 0.0147861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.513340 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c959102b3547731bc23b5acfb90d78fb') in 0.0155535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.967057 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a40bb74b4002360c88086fc150756e0d') in 0.0152123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.233844 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07f1158fbdaedda2b3260920a7a7a3f9') in 0.0187481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.962230 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51cd69d73701038ea0e2c96ac006ebe9') in 0.0141145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.901195 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b5db066eb94b015c501beaeee431cc0') in 0.0188416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.960669 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c04f00bcfc623e20a1dd94ea55e48807') in 0.0142737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.076458 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9895f6fde96b2feb0b45bdf818b9556') in 0.0160557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.968039 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba11fc2489a8276a6b2aa728afb3024d') in 0.0149559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.825721 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49de897260ad10d381ff6e4dd237a0f4') in 0.0161369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.967758 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbb920671fdb35733d20a6de70f972d8') in 0.0154267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.052236 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '879d6918f78a8e6c0d949844cc1f405e') in 0.0158868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.040260 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4975034deec80380b63cc9e81ff76c34') in 0.0161557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.767027 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4e339a78c6221941e0ef191384d8d5a') in 0.016076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.968862 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f718a97548c869f03b8fb9137da9647') in 0.0137642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.933070 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b97ba78755f025437d31d6d33dcb7cab') in 0.0165256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.966212 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8a28c04235e9570c1a766aeee666ae5') in 0.0139955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.631324 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41929c8e0da105559a091c24ba4c34be') in 0.0158176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.966962 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79cc83707b7a2b87fea6d2f8882ad98b') in 0.0152998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.010191 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5413eff7dc72130d47e168ec8a61584') in 0.0163922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.982627 seconds.
+  path: Assets/Objects/Card_summer1.prefab
+  artifactKey: Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1.prefab using Guid(3828995f34689a54eb7c1fefcc55f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d2e4df86c8a6c468f847a62d28d66de') in 0.0132778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.570488 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a14b0a5c6b6421c2b0f7ff0c6157929') in 0.0159783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.965993 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9a5f76bd9bfbfaa21b52c2ba4ff111ba') in 0.014136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.514108 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcb309b9592b290604a6b877fe60f5fc') in 0.0149316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.967601 seconds.
+  path: Assets/Objects/Card_summer1 1.prefab
+  artifactKey: Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 1.prefab using Guid(7f86fb3e532b18d4dbffa2fa72b1e896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2f53ae8d82a0c81c61937e8fc167f0c') in 0.0132067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.374715 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cdc2ed93f245daa1c0ca1c69e06d242') in 0.01546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.955874 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '325661f99d32cd3abef513392ac43ed7') in 0.0135591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.577301 seconds.
+  path: Assets/Objects/Card_summer1 3.prefab
+  artifactKey: Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1 3.prefab using Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c047cc67927c6bc954d5d5518b23794') in 0.0156945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.948542 seconds.
+  path: Assets/Objects/Card_summer1 3.prefab
+  artifactKey: Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 3.prefab using Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2836083d5efe4c8014ccd1e7a799db40') in 0.0131899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.660360 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6db5c18347021d76acbdcc8c7e7e12a6') in 0.0202602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.016941 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0137081 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/objects/card_summer1 2.prefab in SourceAssetDB has modification time of '2026-07-11T05:31:10.2766338Z' while content on disk has modification time of '2026-07-11T05:31:11.3730084Z'
+  ERROR: Build asset version error: assets/objects/card_summer1 2.prefab in SourceAssetDB has modification time of '2026-07-11T05:31:10.2766338Z' while content on disk has modification time of '2026-07-11T05:31:11.3730084Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047566 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e310354af096dc5d2d30aa790f117fdf') in 0.0133047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.047301 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84712aec76aad483755978d87e50a4f1') in 0.0163615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.217767 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '557565d82f19ff7d4237e35a3258194d') in 0.0156619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.421133 seconds.
+  path: Assets/Image_summer3.jpg
+  artifactKey: Guid(7c45837c2d0fd4f48a97262bcaccc43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_summer3.jpg using Guid(7c45837c2d0fd4f48a97262bcaccc43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6b2a13bfe8289344fd3d679eaa22afd') in 0.0271373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.959953 seconds.
+  path: Assets/Image_summer3.jpg
+  artifactKey: Guid(7c45837c2d0fd4f48a97262bcaccc43d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Image_summer3.jpg using Guid(7c45837c2d0fd4f48a97262bcaccc43d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a042acb19b7ab7ae589e773c7e1a374') in 0.014458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.090284 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d113e372f49341ed44eced32732888e') in 0.0141762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.174873 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe9c6e078d2af919cf4ba5919242a297') in 0.0132607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.474532 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e5d5c0a9a9c925510470ade3fa10e742') in 0.0139712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.405877 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a532996547ed10395bc356e041076413') in 0.0149187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.280797 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce4327ef8908265224b7a7363fb7f9e3') in 0.01554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.385965 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7bbc4e3f4462c0fca3a767ecb6e96bcd') in 0.013843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.217348 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82f21438f5af162e361ff5ad45358180') in 0.0151977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.715702 seconds.
+  path: Assets/Objects/Card_summer1 2.prefab
+  artifactKey: Guid(367a387303af90345a43280f3fea51a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1 2.prefab using Guid(367a387303af90345a43280f3fea51a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5833dbff25292e37fe2748952675813') in 0.0195023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.760069 seconds.
+  path: Assets/Objects/Card_summer1 3.prefab
+  artifactKey: Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1 3.prefab using Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '691582abef3ff50b1d6671d2601816ff') in 0.0181652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.970274 seconds.
+  path: Assets/Objects/Card_summer1 3.prefab
+  artifactKey: Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 3.prefab using Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37fbc1d0d7f11df08c4dc152f3046b0f') in 0.0136928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.640361 seconds.
+  path: Assets/Objects/Card_summer1 3.prefab
+  artifactKey: Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Card_summer1 3.prefab using Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8a3bf6f11480242736bcbdc5bef739d') in 0.0081159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.976852 seconds.
+  path: Assets/Objects/Card_summer1 3.prefab
+  artifactKey: Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 3.prefab using Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aef417a8b8580ea298dc64d982861728') in 0.0129257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.863646 seconds.
+  path: Assets/Image_summer4.jpg
+  artifactKey: Guid(4e9cc15871ab45f45960c4cbea292dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_summer4.jpg using Guid(4e9cc15871ab45f45960c4cbea292dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bbadbadbdd052bf9ba38e671622ba8f') in 0.0204024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.965923 seconds.
+  path: Assets/Image_summer4.jpg
+  artifactKey: Guid(4e9cc15871ab45f45960c4cbea292dcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Image_summer4.jpg using Guid(4e9cc15871ab45f45960c4cbea292dcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72a622ad66d7457c94342c1c67a4b852') in 0.0144634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.329173 seconds.
+  path: Assets/Objects/Card_summer1 3.prefab
+  artifactKey: Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 3.prefab using Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f72f742f0671053b27f11198d7fa57cb') in 0.0135967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.306220 seconds.
+  path: Assets/Objects/Card_summer1 3.prefab
+  artifactKey: Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 3.prefab using Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17a373e5e6f91782d506235c92b0f74d') in 0.0134334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.997866 seconds.
+  path: Assets/Objects/Card_summer1 3.prefab
+  artifactKey: Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 3.prefab using Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87f53321b8bfef01f9363e38a5034adf') in 0.013719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.133151 seconds.
+  path: Assets/Objects/Card_summer1 3.prefab
+  artifactKey: Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 3.prefab using Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d9c5d813e23afdd11edead6719d8db5') in 0.0148372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.169750 seconds.
+  path: Assets/Objects/Card_summer1 3.prefab
+  artifactKey: Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 3.prefab using Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87ba538b2a1948f7c928203b2010a843') in 0.0140533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.719167 seconds.
+  path: Assets/Objects/Card_summer1 3.prefab
+  artifactKey: Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/Card_summer1 3.prefab using Guid(a089fc6276ade534e8a7108359a2b9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0716c63b50d75de40175a1c663aefdbc') in 0.0157221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
