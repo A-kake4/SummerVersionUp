@@ -115,7 +115,7 @@ public class GameManager : MonoBehaviour
             case 15:
                 SetMPText(mpTextP1, 2);
                 P1.HandleStateTransition();
-                SetHPText(hpTextP2, 1600);
+                SetHPText(hpTextP2, 400);
                 break;
             case 16:
                 SetMPText(mpTextP2, 8);

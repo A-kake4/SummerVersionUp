@@ -502,7 +502,7 @@ PrefabInstance:
     - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: dca46830f400ced4e953b2d66e3ee710, type: 3}
+      objectReference: {fileID: 21300000, guid: 1f4ecaff8e101a845a7cccec6a24d5c5, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3604080967631490319, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
@@ -834,6 +834,18 @@ PrefabInstance:
     - target: {fileID: 1387731250034346330, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
       propertyPath: m_Name
       value: CardPool (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1508,6 +1520,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardPool
       objectReference: {fileID: 0}
+    - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
+      propertyPath: m_Color.g
+      value: 0.88759816
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021362718306194668, guid: ed595da3bf92a30478232cf9feeec076, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1549,8 +1573,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   P1: {fileID: 1501397525}
   P2: {fileID: 1573901074}
-  draw1: {fileID: 21300000, guid: 0c9753e8934afc24c9b94715767e71e5, type: 3}
-  draw2: {fileID: 21300000, guid: 0c9753e8934afc24c9b94715767e71e5, type: 3}
+  draw1: {fileID: 21300000, guid: 53817a06c0f72d743a1b5629f82df4e6, type: 3}
+  draw2: {fileID: 21300000, guid: 53817a06c0f72d743a1b5629f82df4e6, type: 3}
   hpTextP1: {fileID: 1092903496}
   hpTextP2: {fileID: 1846150871}
   mpTextP1: {fileID: 97491480}
