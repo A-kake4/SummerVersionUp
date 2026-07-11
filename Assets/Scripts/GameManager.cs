@@ -47,10 +47,10 @@ public class GameManager : MonoBehaviour
             case 0:
                 // MP1の攻撃
                 P1.HandleStateTransition();
-                SetMPText(mpTextP1, 9);
                 break;
             case 1: 
                 P1.HandleStateTransition();
+                SetMPText(mpTextP1, 9);
                 SetHPText(hpTextP2, 1880);
                 break;
             case 2:
@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
                 break;
             case 3:
                 P2.HandleStateTransition();
-                SetMPText(mpTextP2, 8);
+                SetMPText(mpTextP2, 6);
                 SetAttackText(atkTextP2, 240);
                 break;
             case 4:
@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
                 break;
             case 5:
                 P2.HandleStateTransition();
-                SetMPText(mpTextP2, 6);
+                SetMPText(mpTextP2, 5);
                 SetHPText(hpTextP1, 800);
                 break;
             case 6:
@@ -88,7 +88,7 @@ public class GameManager : MonoBehaviour
                 SetDefenseText(defTextP1, 90);
                 break;
             case 9:
-                SetMPText(mpTextP2, 10);
+                SetMPText(mpTextP2, 8);
 
                 // ドローしてMP2の攻撃バフカードを使う
                 P2.ChangeLastCard(draw2);
@@ -99,7 +99,7 @@ public class GameManager : MonoBehaviour
                 break;
             case 11:
                 P2.HandleStateTransition();
-                SetMPText(mpTextP2, 5);
+                SetMPText(mpTextP2, 6);
                 SetAttackText(atkTextP2, 480);
                 break;
             case 13:
@@ -118,7 +118,7 @@ public class GameManager : MonoBehaviour
                 SetHPText(hpTextP2, 1600);
                 break;
             case 16:
-                SetMPText(mpTextP2, 10);
+                SetMPText(mpTextP2, 8);
 
                 // 後攻がドローして必殺技
                 P2.ChangeLastCard(draw2);
@@ -128,7 +128,7 @@ public class GameManager : MonoBehaviour
                 P2.HandleStateTransition();
                 break;
             case 18:
-                SetMPText(mpTextP2, 3);
+                SetMPText(mpTextP2, 0);
                 P2.HandleStateTransition();
                 SetHPText(hpTextP1, 0);
                 break;
@@ -137,22 +137,22 @@ public class GameManager : MonoBehaviour
 
     void SetHPText(TextMesh hpText, int newHP)
     {
-        hpText.text = "HP: " + newHP.ToString();
+        hpText.text = "HP:" + newHP.ToString();
     }
 
     void SetMPText(TextMesh mpText, int newMP)
     {
-        mpText.text = "MP: " + newMP.ToString();
+        mpText.text = "MP:" + newMP.ToString();
     }
 
     void SetAttackText(TextMesh atkText, int newATK)
     {
-        atkText.text = "ATK: " + newATK.ToString();
+        atkText.text = "ATK:" + newATK.ToString();
     }
 
     void SetDefenseText(TextMesh defText, int newDEF)
     {
-       defText.text = "DEF: " + newDEF.ToString();
+       defText.text = "DEF:" + newDEF.ToString();
     }
 
     void SetDeckText(TextMesh deckText, int newDeck)
